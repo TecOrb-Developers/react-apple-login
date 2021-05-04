@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
 
 ### `npm start`
 
@@ -31,23 +32,23 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 ## Apple login
-## step-1 firstly go for developer account
+## Step-1 firstly go for developer account
 https://developer.apple.com/account/#/overview/TG25L453P5
 ## Step-2  Setting Up Developer Portal:
 
 First, sign in to the Apple Developer Portal and enroll if you have not already, and then click on Certificates, Identifiers and Profiles
 
-## step-3 Setting up App ID, Register a new identifier and select App Ids, Select option "Signin with apple"
+## Step-3 Setting up App ID, Register a new identifier and select App Ids, Select option "Signin with apple"
 
 From the sidebar, choose Identifiers then click the blue plus icon.
 
 ## Step-4 Create Service Id for web application 
-1-Now Go ahead and create a new identifier and choose Services IDs.
-2-then register service Id
-3-Web Authentication Configuration
-4-is service Id Make sure to also check the Sign In with Apple checkbox.
-5-click the Configure button next to Sign In with Apple in this step. This is where you’ll define the domain your app is running on, as well as define the redirect URLs used during the OAuth flow.
-6-  Apple doesn’t allow localhost URLs in this step. You have to use a real domain here or use
+1-Now Go ahead and create a new identifier and choose Services IDs.<br /> 
+2-then register service Id.<br /> 
+3-Web Authentication Configuration.<br /> 
+4-is service Id Make sure to also check the Sign In with Apple checkbox.<br /> 
+5-click the Configure button next to Sign In with Apple in this step. This is where you’ll define the domain your app is running on, as well as define the redirect URLs used during the OAuth flow.<br /> 
+6-  Apple doesn’t allow localhost URLs in this step. You have to use a real domain here or use.<br /> 
 
 
 ## Step-5 Create Key
